@@ -9,7 +9,7 @@ comments: false
 
 # Django Custom Command
 
-[ 주의! 본 포스팅은 전문적으로 정확하지 않을 수 있습니다. 수정할 부분은 피드백해주시면 감사드리겠습니다.]
+[ 주의! 본 포스팅은 내용이 정확하지 않을 수 있습니다. 수정할 부분은 피드백해주시면 감사드리겠습니다.]
 
 보통 Management Command 라고 말하는데 난 Custom Command 가 입에 붙어버렸다.
 
