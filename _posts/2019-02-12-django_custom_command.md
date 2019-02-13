@@ -49,7 +49,8 @@ Custom Command 파일 위치는 ```project/app/management/commands/{command}.py`
 
 __ init __.py 는 파이썬이 이 경로에 있는 파일을 모듈로 인식할수있도록 생성해주는거라고 알고있다. 파일에 내용은 따로 적을 필요없음!
 
-crawl.py 에서 커맨드의 기능을 구현하면된다. 파일명이 커맨드명이 되니까 기억해두도록하자 
+crawl.py 에서 커맨드의 기능을 구현하면된다. 파일명이 커맨드명이 되니까 기억해두도록하자. 
+
 ex) 파일명이 crawl.py면 ``` python manage.py crawl``` 로 실행할 수 있다.
 
 저기까지 끝났다면 ```python manage.py help``` 명령어를 실행해보도록하자.
@@ -77,6 +78,8 @@ ex) 파일명이 crawl.py면 ``` python manage.py crawl``` 로 실행할 수 있
 먼저 BaseCommand 를 불러와서 클래스를 하나 생성해준다.
 
 그 아래 help 는 커맨드에 대한 설명이라고 생각하면 될 듯하다.
+
+두 함수에 대해서 알아보자.
 
 
 
