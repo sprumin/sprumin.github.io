@@ -80,7 +80,7 @@ ex) 파일명이 crawl.py면 ``` python manage.py crawl``` 로 실행할 수 있
 
 
 
-##### add_arguments
+#### add_arguments
 
 커맨드를 실행 시 추가적으로 파라미터를 받는 함수이다.
 
@@ -93,7 +93,7 @@ ex) 파일명이 crawl.py면 ``` python manage.py crawl``` 로 실행할 수 있
 
 
 
-##### handle
+#### handle
 
 실질적으로 커맨드가 동작하는 부분이다. main() 함수라고 생각하면 편할거같다.
 
