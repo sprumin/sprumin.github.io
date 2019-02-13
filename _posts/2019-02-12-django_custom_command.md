@@ -18,11 +18,8 @@ comments: false
 ### Custom Command란?
 
 <figure>
-    <a href="https://github.com/sprumin/sprumin.github.io/blob/master/assets/img/post_image/command_help.png">
-        <img src="https://github.com/sprumin/sprumin.github.io/blob/master/assets/img/post_image/command_help.png"></a>
-    <figcaption>
-        <a href="https://github.com/sprumin/sprumin.github.io/blob/master/assets/img/post_image/command_help.png" title="python manage.py help"></a>
-    </figcaption>
+    <a href="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_help.png">
+        <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_help.png"></a>
 </figure>
 
 콘솔을 키고 프로젝트 폴더에서 ```python manage.py help``` 명령어를 실행하면 위와같이 Django에 내장된 커맨드들이 보인다. 대표적으로 Django 실행할때 사용하는 ```python manage.py runserver```도 마찬가지로 커맨드중 하나이다.
@@ -62,10 +59,7 @@ __ init __.py 는 파이썬이 이 경로에 있는 파일을 모듈로 인식�
 저기까지 끝났다면 ```python manage.py help``` 명령어를 실행해보도록하자.
 
 <figure>
-    <a href="https://github.com/sprumin/sprumin.github.io/blob/master/assets/img/post_image/command_help_success.png">
-        <img src="https://github.com/sprumin/sprumin.github.io/blob/master/assets/img/post_image/command_help_success.png"></a>
-    <figcaption>
-        <a href="https://github.com/sprumin/sprumin.github.io/blob/master/assets/img/post_image/command_help_success.png" title="python manage.py help"></a>
-    </figcaption>
+    <a href="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_help_success.png">
+        <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_help_success.png"></a>
 </figure>
 
