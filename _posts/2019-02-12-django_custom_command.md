@@ -67,7 +67,7 @@ ex) 파일명이 crawl.py면 ``` python manage.py crawl``` 로 실행할 수 있
 
 ### Command 실행시키기
 
-커맨드를 등록했으니 제대로 실행이되는지 간단한 코드를 작성해 실행시켜보도록 하자.
+커맨드를 등록했으니 제대로 실행이되는지 간단하게 입력받은 파라미터를 출력해주는 코드를 작성해 실행시켜보도록 하자.
 
 <figure>
     <a href="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_py.png">
@@ -81,8 +81,7 @@ ex) 파일명이 crawl.py면 ``` python manage.py crawl``` 로 실행할 수 있
 
 
 #### add_arguments
-
-커맨드를 실행 시 추가적으로 파라미터를 받는 함수이다.
+- 커맨드를 실행 시 추가적으로 파라미터를 받는 함수이다.
 
 함수안에 ```parser.add_argument(key, nargs, type, help)``` 를 사용하여 파라미터를 추가 등록시키면된다.
 
@@ -94,8 +93,7 @@ ex) 파일명이 crawl.py면 ``` python manage.py crawl``` 로 실행할 수 있
 
 
 #### handle
-
-실질적으로 커맨드가 동작하는 부분이다. main() 함수라고 생각하면 편할거같다.
+- 실질적으로 커맨드가 동작하는 부분이다. main() 함수라고 생각하면 편할거같다.
 
 입력한 파라미터를 받아오는 방법은 ```options["key"][0]``` 으로 받아 사용하면된다.
 
@@ -110,7 +108,9 @@ ex) 파일명이 crawl.py면 ``` python manage.py crawl``` 로 실행할 수 있
         <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_success.png"></a>
 </figure>
 
-Custom Command 구현이 끝났다.
+입력받은 파라미터가 정상적으로 출력되었다.
+
+이상으로Custom Command 구현이 끝났다.
 
 다음에는 Selenium을 사용한 구글 이미지 크롤링을 진행할 예정이다.
 
