@@ -115,5 +115,5 @@ ex) 파일명이 crawl.py면 ``` python manage.py crawl``` 로 실행할 수 있
 
 이상으로Custom Command 구현이 끝났다.
 
-다음에는 Selenium을 사용한 구글 이미지 크롤링을 진행할 예정이다.
+다음에는 Selenium으로 구글 이미지 크롤링을 진행할 예정이다.
 
