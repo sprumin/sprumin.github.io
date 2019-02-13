@@ -15,3 +15,4 @@ comments: false
 
 
 #### 제작과정 ( 링크 )
+[ Django Custom Command ](https://sprumin.github.io/django_custom_command) .
