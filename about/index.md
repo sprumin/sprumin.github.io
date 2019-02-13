@@ -1,37 +1,81 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: About the Sprumin
+tags: [sprumin, python, django, study, about, Jekyll, theme, moon]
+date: 2019-02-13
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center><a href="https://github.com/sprumin"><b>Sprumin</b></a> 's github</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+## Profile
 
-## Preview
+- 이름 : 이성필
+- 생년월일 : 1999년 5월 25일 ( 양력 )
+- 나이 : 21세 ( 2019년 )
+- 회사 : 2017년 9월 1일부터 솔루션개발팀으로 재직중 ( 주식회사 업루트 )
+- 이메일 : sprumin123@gmail.com
+- 고졸 ( 한세사이버보안고등학교 해킹보안과 졸업 )
+  - 해킹보안과를 졸업했으나 해킹도 못하고 해킹보안도 못함
+  - 아무리 생각해도 한세개발고등학교가 맞는거같다
+  - 대다수가 웹 개발자로 취ㅇ..ㅓㅂ...
+- 디자인에 재능 1도없음 진짜 없음. 의식의 흐름대로 디자인하는게 특징
+- 연예인 레드벨벳 슬기를 굉장히 좋아한다. ( TMI )
+  - 이것도 TMI 지만 과자 빈츠를 상당히 좋아한다.
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
 
-## Getting Started
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+
+## certificate
+
+- ITQ
+  - 아래한글 A
+  - 파워포인트 B
+  - 엑셀 A
+- 정보처리기능사
+- 정보기기운용기능사
+
+
+
+##  Profile to job
+
+- Python, Django 백엔드 개발을 주로 하고있다.
+- [BADWARE.INFO](https://badware.info) 와 [BADWARE.CLOUD](https://badware.cloud) 백엔드 부분을 담당하고있다.
+  - 홍보 아님
+  - 절대 아님
+  - 아무튼 아님
+- 다른 팀 프로젝트에서 JSP로 UI개발도 하고있다.
+  - 이거 할 때마다 Django 하고싶다는 생각이 든다.
+
+
+
+
+
+## Project
+
+프로젝트 소스는 [github ](https://github.com/sprumin)에 올라가있다.  github에 없는 소스는 고등학교 때 동아리에서 진행했던 프로젝트이다.
+
+|         날짜         | 개인/팀 |     프로젝트 이름     |                 프로젝트 설명                  |     담당 업무      |
+| :----------------: | :--: | :-------------: | :--------------------------------------: | :------------: |
+|      2015/05       |  팀   |       뱀게임       | C++ 로 뱀게임을 구현하였다. 원래 뱀게임은 먹이를 먹으면 길이가 길어지는데 시간이 촉박한 나머지 길이 대신 속도가 빨라졌다. |  먹이 생성, 속도 조절  |
+|      2015/11       |  개인  |     하스백과사전      | Android Studio 를 이용하여 네이티브 앱을 만들었다. 하스스톤의 영웅들 정보를 알려주는 어플리케이션이다. 디자인은 친구(rudy)가 옆에서 도와줬다. | 디자인을 제외한 모든기능  |
+|      2016/04       |  개인  |      웹서버구축      |    APM 으로 웹서버를 구축해보았다. 자기소개 웹 페이지이다.     |                |
+|      2017/02       |  팀   |     PyInzik     | Python 의 pygame을 이용하여 BJ감스트 이미지를 따와 비행게임을 만들었다. | 적군기체구현, 스코어 증감 |
+|       2018/7       |  개인  |       Ask       | Django 를 사용한 첫 개인 프로젝트. 인터넷에 널리 알려진 익명 질문 서비스인 Ask를 기능만 구현해보았다. 디자인은 손도 못대서 진짜로  기능만있다. |                |
+|       2018/9       |  개인  | SubscriberAlert | Python 으로 Discord의 Webhook을 사용하여 일정시간마다 특정 크리에이터의 구독자수를 알림해주는 봇을 |                |
+|      2018/10       |  팀   |    Teemo Bot    | Teemo 봇이라는 디스코드봇을 제작하였다. 기능은 음악재생, 날씨, 미세먼지 등 다양한 기능들이 구현되어있다. |    데이터 크롤링     |
+| 2019/02<br />(진행중) |  개인  |   LoveSeulgi    | Django 를 사용하여 레드벨벳 슬기 팬 페이지를 만들고있다. 사용될 이미지는 구글에서 Python 으로 크롤링한다. |                |
+
+
+
+
+
+
+
+## TODO
+
+- docker 숙련도 향상
+- Vue.js 공부 후 Vue( 프론트 ) + Django( 백엔드 ) 로 프로젝트 하기
+- 정보처리산업기사 자격증 취득
+- 병역특례 마치기 ( 제일 중요 )
