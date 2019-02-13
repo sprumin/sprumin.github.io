@@ -18,12 +18,8 @@ comments: false
 ### Custom Command란?
 
 <figure>
-
-```
-<a href="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_help.png">
-    <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_help.png"></a>
-```
-
+    <a href="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_help.png">
+        <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_help.png"></a>
 </figure>
 
 콘솔을 키고 프로젝트 폴더에서 ```python manage.py help``` 명령어를 실행하면 위와같이 Django에 내장된 커맨드들이 보인다. 대표적으로 Django 실행할때 사용하는 ```python manage.py runserver```도 마찬가지로 커맨드중 하나이다.
@@ -59,12 +55,8 @@ ex) 파일명이 crawl.py면 ``` python manage.py crawl``` 로 실행할 수 있
 저기까지 끝났다면 ```python manage.py help``` 명령어를 실행해보도록하자.
 
 <figure>
-
-```
-<a href="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_help_success.png">
-    <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_help_success.png"></a>
-```
-
+    <a href="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_help_success.png">
+        <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_help_success.png"></a>
 </figure>
 
 정상적으로 crawl 커맨드가 등록된걸 확인할 수 있다.
@@ -78,12 +70,8 @@ ex) 파일명이 crawl.py면 ``` python manage.py crawl``` 로 실행할 수 있
 커맨드를 등록했으니 제대로 실행이되는지 간단한 코드를 작성해 실행시켜보도록 하자.
 
 <figure>
-
-```
-<a href="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_py.png">
-    <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_py.png"></a>
-```
-
+    <a href="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_py.png">
+        <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_py.png"></a>
 </figure>
 
 먼저 BaseCommand 를 불러와서 클래스를 하나 생성해준다.
@@ -118,12 +106,8 @@ ex) 파일명이 crawl.py면 ``` python manage.py crawl``` 로 실행할 수 있
 소스 구현이 끝났다면 아까 등록했던 커맨드를 실행해보도록 하자.
 
 <figure>
-
-```
-<a href="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_success.png">
-    <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_success.png"></a>
-```
-
+    <a href="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_success.png">
+        <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/command_success.png"></a>
 </figure>
 
 Custom Command 구현이 끝났다.
