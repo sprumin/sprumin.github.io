@@ -7,7 +7,7 @@ tags: [python, chromedriver, headless, crawl, selenium, regex]
 comments: false
 ---
 
-# Python Google Image Crawling with Selenium & Saving Data to Django
+# Python Google Image Crawling with Selenium
 
 [ 주의! 본 포스팅은 내용이 정확하지 않을 수 있습니다. 수정할 부분은 피드백해주시면 감사드리겠습니다.]
 
