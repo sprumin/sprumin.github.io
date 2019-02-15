@@ -84,7 +84,7 @@ class Command(BaseCommand):
                          help="name")
 
   def handle(self, *args, **options):
-    name = option["name"][0]
+    name = options["name"][0]
 
     print(name)
 ```
