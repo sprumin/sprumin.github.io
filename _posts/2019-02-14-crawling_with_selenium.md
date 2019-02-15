@@ -20,12 +20,8 @@ comments: false
 그래서 requests 로 html 을 긁어온 후 정규표현식으로 이미지들만 걸러서 저장했는데 문제가 생겼다.
 
 <figure>
-
-```
-<a href="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/google_thumbnail.png">
-    <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/google_thumbnail.png"></a>
-```
-
+    <a href="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/google_thumbnail.png">
+        <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/google_thumbnail.png"></a>
 </figure>
 
 내가 크롤러로 가져온 이미지는 1번 이미지였다. 1번 이미지는 Thumbnail 이라서 화질이 굉장히 안좋았다.
@@ -64,16 +60,11 @@ print(driver.page_source)
 
 driver.quit()
 ```
-
-`webdriver.Chrome()` 에 현재 chromedriver.exe 가 설치되어있는 경로를 입력해주면된다.
-
-나는 Chromedriver.exe 가 프로젝트 폴더에 위치해있어서 파일명만 적어주었다.
-
-`driver.get()` 에는 접속하고자하는 페이지의 url 을 넣어주면된다.
-
-`driver.implicitly_wait()` 은 페이지가 다 로딩될때까지 기다리는 시간을 설정해주는거라고 알고있다.
-
-`driver.page_source` 를 출력하면 현재 Chromedriver 로 띄운 페이지의 html 소스 코드를 볼 수 있다.
+- `webdriver.Chrome()` : chromedriver.exe 가 설치되어있는 경로를 설정해준다.
+  - 나는 Chromedriver.exe 가 프로젝트 폴더에 위치해있어서 파일명만 적어주었다.
+- `driver.get()` : 접속하고자하는 페이지의 url 을 삽입해준다.
+- `driver.implicitly_wait()` : 페이지가 다 로딩될때까지 기다리는 시간을 지정해준다.
+- `driver.page_source` : 현재 Chromedriver 로 띄운 페이지의 html 소스 코드를 볼 수 있다.
 
 사용이 끝나면 `driver.quit()` 으로 Chromedriver 창을 닫아준다.
 
@@ -84,12 +75,8 @@ driver.quit()
 정규표현식을 사용하여 이미지, 출처, 제목을 파싱하도록하자.
 
 <figure>
-
-```
-<a href="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/find_image_info.png">
-    <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/find_image_info.png"></a>
-```
-
+    <a href="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/find_image_info.png">
+        <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/find_image_info.png"></a>
 </figure>
 
 위 이미지에서 파싱할 데이터는 아래와 같다.
@@ -183,12 +170,8 @@ driver.quit()
 그리고 스크롤을 내리다보면 아래와 같이 버튼이 하나 나온다.
 
 <figure>
-
-```
-<a href="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/결과더보기.png">
-    <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/결과더보기.png"></a>
-```
-
+    <a href="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/결과더보기.png">
+        <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/결과더보기.png"></a>
 </figure>
 
 자동 스크롤을 막으려고 해놓은건지... 잘 모르겠지만 저걸 눌러줘야 추가로 로딩이 된다.
