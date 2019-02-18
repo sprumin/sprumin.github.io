@@ -15,5 +15,5 @@ comments: false
 
 
 #### 제작과정 ( 링크 )
-[ Django Custom Command ](https://sprumin.github.io/django_custom_command)
+[ Django Custom Command ](https://sprumin.github.io/django_custom_command) <br/>
 [ Google Image Crawling with Selenium ](https://sprumin.github.io/crawling_with_selenium)
