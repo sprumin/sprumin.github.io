@@ -136,11 +136,11 @@ driver.get("https://www.google.co.kr/search?q=레드벨벳슬기&tbm=isch")
 driver.implicitly_wait(3)
 
 last_height = driver.execute_script("return document.body.scrollHeight")
-SCROLL_PAUSE_TIME = 0.5
+pause = 0.5
 
 while True:
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    time.sleep(SCROLL_PAUSE_TIME)
+    time.sleep(pause)
     new_height = driver.execute_script("return document.body.scrollHeight")
  
     if new_height == last_height:
@@ -155,7 +155,7 @@ for info in images_info:
 driver.quit()
 ```
 
-- 요약 ( `scroll_pause_time` 은 스크롤이 내려가면서 이미지가 추가 로딩되는걸 눈으로 보기위해 설정함 )
+- 요약 ( `pause` 는 스크롤이 내려가면서 이미지가 추가 로딩되는걸 눈으로 보기위해 설정함 )
 
 1. `last_height` 에 현재 페이지의 높이 저장
 2. scroll 을 `last_height` 까지 내린후 `new_height` 에 현재 페이지의 높이를 저장
