@@ -2,8 +2,8 @@
 layout: post
 title: "LoveSeulgi Project - Use Django Model"
 date: 2019-02-20
-excerpt: "save crawl data to django model"
-tags: [python, django, model, duplicate check]
+excerpt: "save crawl data to django model & Django admin"
+tags: [python, django, model, duplicate check, django admin]
 comments: true
 ---
 # Save Crawl Data to Django Model
@@ -11,7 +11,7 @@ comments: true
 [ 주의! 본 포스팅은 내용이 정확하지 않을 수 있습니다. 수정할 부분은 피드백해주시면 감사드리겠습니다.]
 
 이미지를 수집하는 크롤러는 만들었는데 저장할 DB 를 안만들었다.. 그래서 이제 만들겁니다.. 
-- 이 포스트를 보기전에 [Django Media Files](https://sprumin.github.io/media_files/) 를 먼저 보고오는걸 추천합니다.
+- 이 포스트를 보기전에 [Django Media Files](https://sprumin.github.io/django_media_files/) 를 먼저 보고오는걸 추천합니다.
 - Media Files 설정을 해주지 않으면 이미지가 정상적으로 저장되지 않아요.
 
 <br/>
@@ -152,9 +152,10 @@ DB에 삽입할 row 를 생성하는데 비 정상적인 데이터가 들어갈 
 
 이미지를 저장할때 image link 를 바로 저장하면안되고 위 처럼 BytesIO 를 통해 이미지만 가져와서 변환시켜주어야한다.
 
-마지막으로 이미지가 제대로 저장되었는지 확인하기위해 print 한 줄씩 해주었다.
+그리고 이미지가 제대로 저장되었는지 확인하기위해 print 한 줄씩 해주었다.
 
 <br/>
+
 
 크롤러를 만들고 데이터를 저장하는 일까지 끝났다. 이제 본격적으로 페이지를 만들거같은데 진짜로 css 에는 재능이 하나도 없어서 갈길이 멀다.. 템플릿을 따오던지 하는게 마음이 편할거같다.
 
