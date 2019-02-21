@@ -155,7 +155,71 @@ DB에 삽입할 row 를 생성하는데 비 정상적인 데이터가 들어갈 
 그리고 이미지가 제대로 저장되었는지 확인하기위해 print 한 줄씩 해주었다.
 
 <br/>
+### Django admin
 
+- url 설정
+
+이미지(데이터)가 잘 저장되었는지 확인하는 방법은 여러가지가있다. sqlite3에 직접 접근하여 확인할수도있고 ImageField 에서 설정한 폴더에 들어가 확인해 볼 수도 있지만( Media Files 한정 ) Django 에서는 Model 을 관리하기 쉽게 Django admin 이란걸 제공하기 때문에 Django admin 을 사용해보도록하겠다.
+
+일단 admin 에 접속할 url 설정을 해야하는데 Django 프로젝트를 생성하면 기본적으로 설정되어있기에 따로 건드릴건없다. `project/project/urls.py` 에 보면 아래와 같이 설정이 되어있는걸 확인할 수 있다.
+
+```python
+from django.contrib import admin
+# django 2.0 이상부터는 url 이 아닌 path 로 routing 이 가능하다.
+from django.urls import path
+
+urlpatterns = [
+    path("admin/", admin.site.urls),
+]
+```
+
+`django서버주소:8000/admin/` 에 접속하면 admin 사이트가 나타난다! 라고 생각하면 될 듯하다.
+
+-  admin site 설정
+
+`project/app/admin.py` 에서 아래 소스코드를 작성하였다.
+
+```python
+from django.contrib import admin
+
+from gallery.models import Album
+
+class AlbumAdmin(admin.ModelAdmin):
+    list_display = ("name", "photo", "title", "source", "views", 
+                    "thumbs", "is_gif", "created_at", )
+    ordering = ("-id", "views", "thumbs", )
+    list_filter = ("is_gif", )
+    readonly_fields = ("photo", "source", )
+
+admin.site.register(Album, AlbumAdmin)
+```
+
+admin.py 에서 커스텀해주지 않으면 그 모델은 django admin page 에서 관리할 수 없다. 말이 이상한거같은데 간단하게 말해서 위처럼 설정을 해줘야 웹에서 관리가 가능하다. 
+
+-  `AlbumAdmin(admin.ModelAdmin)` : admin page 에서 Model 을 관리할때 유저 편의에 맞게 세팅할 수 있도록 설정하기위해 선언한 클래스 
+- `list_display` : row list 에 보여질 필드들
+- `ordering` : row list 를 정렬하는 기준이 되는 필드들 
+  - -id 로 하면 최신순 데이터부터 보여지기 때문에 -id 로 한다.
+- `list_filter` : 특정 값에 따라 row list 에 있는 데이터들을 필터링하는 필드들
+- `readonly_fields` : 읽기 권한만 주어지는 필드들
+- `admin.site.register(Album, AlbumAdmin)` : AlbumAdmin 의 설정값에 따라 admin site 에서 테이블을 관리할 수 있게 등록시켜주는 것.
+
+
+
+- admin 계정 생성
+
+콘솔에 `python manage.py createsuperuser` 를 입력하고 아이디, 이메일, 비밀번호를 설정해주면 끝이난다
+
+
+
+admin 까지 작성이 끝났다면 admin site 에 들어가 데이터들을 확인할 차례
+
+ `localhost:8000/admin` 에 접속하고 로그인 한 후 admin.py 에서 등록한 모델을 클릭하면 아래처럼 크롤링 데이터가 정상적으로 테이블에 저장되었는지 확인할 수 있다. 
+
+<figure>
+    <a href="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/django_admin.png">
+        <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/django_admin.png"></a>
+</figure>
 
 크롤러를 만들고 데이터를 저장하는 일까지 끝났다. 이제 본격적으로 페이지를 만들거같은데 진짜로 css 에는 재능이 하나도 없어서 갈길이 멀다.. 템플릿을 따오던지 하는게 마음이 편할거같다.
 
