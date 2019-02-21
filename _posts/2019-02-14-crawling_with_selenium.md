@@ -4,7 +4,7 @@ title: "LoveSeulgi Project - Google Image Crawling with Selenium"
 date: 2019-02-14
 excerpt: "Python google image crawling with selenium"
 tags: [python, chromedriver, headless, crawl, selenium, regex]
-comments: false
+comments: true
 ---
 
 # Python Google Image Crawling with Selenium
