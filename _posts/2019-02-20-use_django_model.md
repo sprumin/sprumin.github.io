@@ -68,7 +68,7 @@ class Album(models.Model):
 
 정상적인 이미지가 크롤링되었는지, 중복된 이미지가 아닌지 체크하기로 했다. 
 
-이 소스코드는 [이전 포스트](https://sprumin.github.com/crawling_with_selenium/) 버전에서 추가로 작성된 소스코드이다.
+이 소스코드는 [이전 포스트](https://sprumin.github.io/crawling_with_selenium/) 버전에서 추가로 작성된 소스코드이다.
 
 ```python
 temp_count = 0
