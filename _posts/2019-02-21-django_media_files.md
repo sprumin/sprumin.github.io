@@ -80,7 +80,8 @@ urlpatterns = [
 
 예를 들어 등록한 파일이 `/media/image/seulgi/0194f823861e479f99953c4046d10ac6.jpg` 에 저장되어있다.
 
-`python manage.py runserver` 명령어로 django 서버를 실행시킨 후 브라우저를 통해 `serverURL:8000/media/image/seulgi/0194f823861e479f99953c4046d10ac6.jpg` 에 접속한다.
+그렇다면 `python manage.py runserver` 명령어로 django 서버를 실행시킨뒤
+`serverURL:8000/media/image/seulgi/0194f823861e479f99953c4046d10ac6.jpg` 에 접속한다.
 
 
 
