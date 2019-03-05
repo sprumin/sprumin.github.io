@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LoveSeulgi Project - Use Django Model"
+title: "Seulgi Fan Page Project - Use Django Model"
 date: 2019-02-20
 excerpt: "save crawl data to django model & Django admin"
 tags: [python, django, model, duplicate check, django admin]

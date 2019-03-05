@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LoveSeulgi Project"
+title: "Seulgi Fan Page Project"
 date: 2019-02-12
 excerpt: "RedVelvet Seulgi Fan Page Production Project"
 project: true

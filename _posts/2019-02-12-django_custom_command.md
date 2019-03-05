@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LoveSeulgi Project - Django Custom Command"
+title: "Seulgi Fan Page Project - Django Custom Command"
 date: 2019-02-12
 excerpt: "Django Custom Command"
 tags: [python, django, customcommand]

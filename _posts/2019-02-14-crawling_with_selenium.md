@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LoveSeulgi Project - Google Image Crawling with Selenium"
+title: "Seulgi Fan Page Project - Google Image Crawling with Selenium"
 date: 2019-02-14
 excerpt: "Python google image crawling with selenium"
 tags: [python, chromedriver, headless, crawl, selenium, regex]

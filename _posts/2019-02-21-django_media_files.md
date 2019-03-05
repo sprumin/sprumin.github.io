@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LoveSeulgi Project - Django Media Files"
+title: "Seulgi Fan Page Project - Django Media Files"
 date: 2019-02-21
 excerpt: "How to use media files at Django"
 tags: [python, django, media files, image]
