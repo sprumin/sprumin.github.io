@@ -19,3 +19,5 @@ comments: true
 [ Django Custom Command ](https://sprumin.github.io/django_custom_command) <br/>
 [ Google Image Crawling with Selenium ](https://sprumin.github.io/crawling_with_selenium) <br/>
 [ Save Crawl Data to Django Model ](https://sprumin.github.io/use_django_model) <br/>
+[ Django Media Files ](https://sprumin.github.io/use_django_model) <br/>
+[ Django Custom User Model Error ](https://sprumin.github.io/user_model_error) <br/>
