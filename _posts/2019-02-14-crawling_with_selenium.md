@@ -2,8 +2,8 @@
 layout: post
 title: "Seulgi Fan Page Project - Google Image Crawling with Selenium"
 date: 2019-02-14
-excerpt: "Python google image crawling with selenium"
-tags: [python, chromedriver, headless, crawl, selenium, regex]
+excerpt: "Python 으로 구글 이미지 크롤러 개발"
+tags: [python, chromedriver, headless, crawl, selenium, regex, 크롤러]
 comments: true
 ---
 

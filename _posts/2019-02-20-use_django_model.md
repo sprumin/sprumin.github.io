@@ -2,7 +2,7 @@
 layout: post
 title: "Seulgi Fan Page Project - Use Django Model"
 date: 2019-02-20
-excerpt: "save crawl data to django model & Django admin"
+excerpt: "크롤링한 데이터 모델에 저장 & Django Admin Page"
 tags: [python, django, model, duplicate check, django admin]
 comments: true
 ---

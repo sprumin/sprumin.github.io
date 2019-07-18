@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Seulgi Fan Page Project - Custom User Model Error"
-date: 2019-03-04
-excerpt: "FOREIGN KEY constraint failed error from Django Custom User Model"
+date: 2019-07-18
+excerpt: "FOREIGN KEY constraint failed error"
 tags: [python, django, model, custom user model, django admin, foreign key error, foreign key constraint failed]
 comments: true
 ---

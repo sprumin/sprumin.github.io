@@ -2,7 +2,7 @@
 layout: post
 title: "Seulgi Fan Page Project - Django Media Files"
 date: 2019-02-21
-excerpt: "How to use media files at Django"
+excerpt: "Django 에서 미디어파일 사용방법"
 tags: [python, django, media files, image]
 comments: true
 ---
@@ -30,7 +30,7 @@ media files 는 유저가 올릴수도있는 동적인 파일들.
 
 <br/>
 
-## Media Files
+### Media Files
 
 이미지를 예로 들겠습니다.
 
