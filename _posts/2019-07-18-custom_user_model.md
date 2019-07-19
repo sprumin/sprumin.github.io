@@ -82,7 +82,8 @@ class UserManager(BaseUserManager):
 
 단순히 유저를 생성하는 메소드, 관리자계정을 생성하는 메소드이다. 이 이외에도 사용하고싶은 메소드가 있다면 추가하면된다.
 
-이렇게 구현된 UserManager 를 위 Custom User Model 에서 사용하겠다고 선언하는 부분이 위에서 작성한 `objects = UserManager()` 이다.
+이렇게 구현된 UserManager 를 위 Custom User Model 에서 사용하겠다고 선언하는 부분이 위에서 작성한 
+`objects = UserManager()` 이다.
 
 <br>
 
