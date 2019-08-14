@@ -63,7 +63,7 @@ comments: false
         <img src="https://raw.githubusercontent.com/sprumin/sprumin.github.io/master/assets/img/post_image/project.png"></a>
 </figure>
 
-
+- 위에 LoveSeulgi 프로젝트 끝났습니다 짝짝짝 [LoveSeulgi](http://loverseulgi.kro.kr)
 
 ## TODO
 
