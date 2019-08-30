@@ -304,7 +304,7 @@ TEMPLATES = [
 
 #### 회원가입 Template
 
-```html
+```python
 <html>
   <head>
   </head>
@@ -333,7 +333,7 @@ view 에서 template 으로 전송한 값을 받을때는 {{ 변수 }} 형태로
 
 #### 로그인 Template
 
-```html
+```python
 <html>
   <head>
   </head>
@@ -384,7 +384,7 @@ def index(request):
 
 #### index.html
 
-```html
+```python
 <html>
   <head>
   </head>
