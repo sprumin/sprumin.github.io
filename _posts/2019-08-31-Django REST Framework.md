@@ -132,9 +132,8 @@ admin page 는 따로 필요없기때문에 `admin/` path 는 삭제하였다.
 
 <br/>
 
-`python manage.py runserver` 명령어로 서버를 실행하고 브라우저로 `127.0.0.1:8000/user/` 에 접속하면 `GET` 으로 UserList 가 json 형태로 보여지는것을 확인할 수 있고,  `POST` 로 UserList 에 User 를 추가할 수 있는 Form 도 나타난다. 
+`python manage.py runserver` 명령어로 서버를 실행하고 브라우저로 `127.0.0.1:8000/user/` 에 접속하면 `GET` 으로 UserList 가 json 형태로 보여지는것을 확인할 수 있고,  `POST` 로 UserList 에 User 를 추가할 수 있는 Form 도 나타난다. 각 row 별로 url 이 표시되는데 `127.0.0.1:8000/user/1` 의 형태로 url 뒤에 pk 가 추가되어있는 상태이다. 해당 url 에 접속하여 보면 pk 에 해당하는 row 의 user 정보가 나타나며 `PUT`, `DELETE` method 도 사용할 수 있는것을 확인할 수 있다.
 
-추가적인 기능들은 더 공부해봐야 알겠지만 DRF 를 설치/설정하고 Serializer 와 Viewset 그리고 Router 를 이용하여 Restful API 를 사용해보았다.
+추가적인 기능들은 더 공부해봐야 알겠지만 DRF 를 설치/설정하고 Serializer 와 Viewset 그리고 Router 를 이용하여 Restful API 를 사용해보았다. DRF 를 사용하지 않았다면 각 http method 별로 함수를 구현해야하고 url 도 POST 파라미터를 받기위해 코드 몇줄을 더 작성해야 했을것이다.
 
-이젠 각 http method 별 요청을 통해 유저 CRUD 기능을 구현해 볼 예정이다.
-
+앞으로 django 로 간단한 RESTFUL API 를 작성해야한다면 DRF 를 사용하게 될 것이다. 
