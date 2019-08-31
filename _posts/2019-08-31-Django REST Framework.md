@@ -2,7 +2,7 @@
 layout: post
 title: "Django REST Framework"
 date: 2019-08-31
-excerpt: "Vue.js + Django 로 일정관리 웹 서비스 개발하기"
+excerpt: "DRF 사용해보기"
 tags: [sprumin, django, DRF, django-rest-framework, REST, restapi]
 comments: true
 ---
@@ -35,7 +35,7 @@ class TestView(View):
     
     def put(self, request):
         pass
-   
+    
 	def delete(self, request):
         pass
 ```

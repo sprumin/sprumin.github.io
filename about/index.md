@@ -68,9 +68,9 @@ comments: false
 ## TODO
 
 - docker 숙련도 향상
-- spring-boot / kotlin 으로 간단한 
 - Vue.js 공부 후 Vue( 프론트 ) + Django( 백엔드 ) 로 프로젝트 하기
 - ~~정보처리산업기사 자격증 취득~~ 59점 맞았습니다^^
 - 병역특례 마치기 ( 제일 중요 )
 - 올해 깃허브 잔디 다 가꾸기 ( 평일 )
 - SQL 쿼리 공부. ORM 백단 SQL 동작 원리 이해
+- 알고리즘 공부
