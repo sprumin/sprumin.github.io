@@ -1,1 +1,0 @@
-# sprumin.github.io
