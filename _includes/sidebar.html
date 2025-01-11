@@ -24,16 +24,17 @@
         {% include nav_list nav=page.sidebar.nav %}
       {% endif %}
     {% endif %}
-
-    {% if site.tags %}
-      <section class="sidebar-section">
-        <h3>Tags</h3>
-        <ul>
-          {% for tag in site.tags %}
-            <li><a href="{{ site.baseurl }}/tags/{{ tag[0] }}">{{ tag[0] }}</a></li>
-          {% endfor %}
-        </ul>
-      </section>
-    {% endif %}
+    
+    <div class="sidebar__tags">
+      <h3>Tags</h3>
+      <ul>
+        {% assign sorted_tags = site.tags | sort %}
+        {% for tag in sorted_tags %}
+          <li>
+            <a href="/tags/#{{ tag[0] | slugify }}">{{ tag[0] }} ({{ tag[1].size }})</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 {% endif %}

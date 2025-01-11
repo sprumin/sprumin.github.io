@@ -278,6 +278,7 @@ defaults:
       layout: single
       author_profile: true
 
-sidebar:
-  - title: "Tags"
-    link: "/tags/"
+# Minimal Mistakes settings
+collections:
+  posts:
+    output: true
