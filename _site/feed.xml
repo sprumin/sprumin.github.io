@@ -1,1 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-25T23:10:53+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sprumin Blog</title><subtitle>생각날 때 마다 하나씩 올려보자</subtitle><author><name>Lee Seongpil</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-12T01:10:16+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sprumin’s blog</title><subtitle>생각날 때 마다 하나씩 올려보자</subtitle><author><name>Lee Seongpil</name></author><entry><title type="html">Minimal Mistakes 적용기</title><link href="http://localhost:4000/minimal-mistakes/" rel="alternate" type="text/html" title="Minimal Mistakes 적용기" /><published>2025-01-10T16:00:00+09:00</published><updated>2025-01-10T16:00:00+09:00</updated><id>http://localhost:4000/minimal-mistakes</id><content type="html" xml:base="http://localhost:4000/minimal-mistakes/"><![CDATA[<p>시즌 525번째 “기술블로그 시작해야지”</p>
+
+<h2 id="개요">개요</h2>
+
+<p>매년 이직 시즌이 찾아올 때 마다 기술블로그를 써야겠다는 생각을 한다.</p>
+
+<p>그렇다 진짜 생각만 했다.</p>
+
+<p>이번에 시작안하면 이번 생에는 안할 것 같아서 세팅부터 시작했다.</p>
+
+<h2 id="github-pages">github pages</h2>
+
+<p>velog, tistory, medium, notion 등 고민을 많이 했지만 github pages로 선택하였다.</p>
+
+<p>각자 장단점이 있지만 github pages를 선택한 이유는 그나마 익숙해서다.</p>
+
+<p>이전에 테마 설정해놓은게 일부 남아있기도 했고, 다른 플랫폼은 처음부터 시작해야해서 익숙한 플랫폼으로 골랐다.</p>
+
+<blockquote>
+  <p>하지만 첫 글을 쓰기보다 세팅하는데 시간이 더 오래 걸리게 되었다는..</p>
+</blockquote>
+
+<h2 id="minimal-mistakes">Minimal Mistakes</h2>
+
+<p>심플하다. 해당 테마를 선택한 이유다.</p>
+
+<p>화려한걸 별로 좋아하지 않아서 여백이 좀 있고 폰트가 심플한 테마를 찾는게 목표였는데 마침 Minimal Mistakes 테마가 보여서 바로 가져왔다.</p>
+
+<p>Minimal Mistakes 공식 가이드도 잘되어 있지만, 사용하는 사람들도 많아서 그런지 폰트 설정이나 세부 디테일 수정에 있어서 참고할 수 있는 글들이 많았다.</p>
+
+<h3 id="ruby-와-jekyll-설치">Ruby 와 Jekyll 설치</h3>
+
+<p><a href="https://rubyinstaller.org/downloads/">Ruby+Devkit</a> 에서 x86 으로 설치해야한다.</p>
+<blockquote>
+  <p>jekyll이 32비트라서 x86 설치</p>
+</blockquote>
+
+<p>이후 하기 명령어들을 실행해주었다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># jekyll 다운로드</span>
+gem <span class="nb">install </span>jekyll
+
+<span class="c"># bundler 다운로드</span>
+gem <span class="nb">install </span>bundler
+
+<span class="c"># 로컬 서버 구동</span>
+bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div>
+
+<h3 id="bundler-jekyll-설치-오류">bundler, jekyll 설치 오류</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>MSYS2 seems to be unavailable Verify integrity of msys2-x86_64-20190524.exe ... 
+</code></pre></div></div>
+
+<p>이런 오류가 발생했었다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">ridk install</code> 이라는 명령어를 실행하라는 안내 문구를 반환하기에 시도했지만 제대로 설치가 되지 않아서 삽질하게 되었다.</p>
+
+<p><a href="https://www.msys2.org/">MSYS2</a> 여기서 msys2…exe 파일을 다운로드 한 뒤 설치하자.</p>
+
+<p>설치 후 <code class="language-plaintext highlighter-rouge">ridk install</code> 명령어 실행 후 <code class="language-plaintext highlighter-rouge">3</code> 을 선택해야 devkit 까지 설치되어 오류가 발생하지 않는다.</p>
+
+<p>이제 다시 설치하면 정상적으로 진행된다.</p>
+
+<h2 id="마치며">마치며</h2>
+
+<p>그래도 블로그 설정하고 글 하나 쓰고 나니까 나름 이뻐보인다.</p>
+
+<p>하루 하나는 아니더라도 주에 한두개씩 쓰다보면 나중에 다시 읽어볼만한 내용들이 있겠지</p>]]></content><author><name>Lee Seongpil</name></author><category term="github" /><category term="github pages" /><category term="ruby" /><category term="minimal-mistakes" /><summary type="html"><![CDATA[시즌 525번째 “기술블로그 시작해야지”]]></summary></entry></feed>

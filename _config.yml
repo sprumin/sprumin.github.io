@@ -10,23 +10,23 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Sprumin Blog"
+title                    : "Sprumin's blog"
 title_separator          : "-"
-subtitle                 : "start from 2024-02-25"
+subtitle                 : "2025"
 name                     : "Sprumin"
 description              : "생각날 때 마다 하나씩 올려보자"
 url                      : "https://sprumin.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "https://github.io/sprumin/sprumin.github.io"
+repository               : "sprumin.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Sprumin Blog"
+masthead_title           : "Sprumin blog"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -277,3 +277,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+sidebar:
+  - title: "Tags"
+    link: "/tags/"
