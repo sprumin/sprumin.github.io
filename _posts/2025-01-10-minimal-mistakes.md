@@ -1,9 +1,13 @@
 ---
 title: "Minimal Mistakes 적용기"
 date: 2025-01-10 16:00:00 +0900
-tags: [github, github pages, ruby, minimal-mistakes]
 toc: true
 toc_sticky: true
+tags:
+    - github
+    - github pages
+    - ruby
+    - minimal mistakes
 ---
 
 시즌 525번째 "기술블로그 시작해야지"
