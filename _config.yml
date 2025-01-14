@@ -278,7 +278,6 @@ defaults:
       layout: single
       author_profile: true
 
-# Minimal Mistakes settings
 collections:
   posts:
     output: true
