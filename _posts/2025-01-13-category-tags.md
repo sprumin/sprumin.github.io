@@ -1,5 +1,5 @@
 ---
-title: "Tags! Instead of category"
+title: "[Github Pages] Tags! Instead of category"
 date: 2025-01-13 12:00:00 +0900
 toc: true
 toc_sticky: true
