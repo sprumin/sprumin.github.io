@@ -8,10 +8,8 @@ tags:
     - github pages
     - jekyll
     - minimal mistakes
+excerpt: "Tags 로 post를 관리하고 싶은데 쉽지 않아"
 ---
-
-Tags 로 post를 관리하고 싶은데 쉽지 않아
-
 ## 개요
 
 기술블로그 관련해서 찾아보다가 Kakao Tech Blog 게시글 형태가 깔끔해보였다.

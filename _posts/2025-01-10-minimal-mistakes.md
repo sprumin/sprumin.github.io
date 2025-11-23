@@ -8,10 +8,8 @@ tags:
     - github pages
     - jekyll
     - minimal mistakes
+excerpt: "시즌 525번째 '기술블로그 시작해야지'"
 ---
-
-시즌 525번째 "기술블로그 시작해야지"
-
 ## 개요
 
 매년 이직 시즌이 찾아올 때 마다 기술블로그를 써야겠다는 생각을 한다.
