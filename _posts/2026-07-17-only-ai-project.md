@@ -1,6 +1,6 @@
 ---
 title: "[AI] 토이 프로젝트 백엔드, Claude/Codex를 곁들인"
-date: 2027-07-17 9:00:00 +0900
+date: 2026-07-17 9:00:00 +0900
 toc: true
 toc_sticky: true
 tags:
